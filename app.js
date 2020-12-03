@@ -33,7 +33,7 @@ app.use(morgan('dev'));
 // Friendly greeting for root route
 app.get('/', (req, res) => {
   res.json({
-    message: 'Welcome to the REST API project!',
+    message: "To the REST API, welcomed you are",
   });
 });
 
